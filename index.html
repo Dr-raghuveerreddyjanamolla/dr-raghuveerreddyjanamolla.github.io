@@ -3,63 +3,83 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Raghuveer Reddy Janamolla | MD Radiation Oncology</title>
+<title>Dr. Raghuveer Reddy Janamolla | Radiation Oncology</title>
 
 <style>
 body {
     margin: 0;
-    font-family: Georgia, 'Times New Roman', serif;
-    background-color: #ffffff;
-    color: #222;
-    line-height: 1.8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.7;
 }
 
 header {
-    background-color: #0b3d6d;
+    background: linear-gradient(135deg, #0b3d6d, #145da0);
     color: white;
-    padding: 50px 20px;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.profile-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile-photo {
+    flex: 1;
     text-align: center;
 }
 
-header h1 {
+.profile-photo img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #145da0;
+}
+
+.profile-text {
+    flex: 2;
+}
+
+h1 {
     margin: 0;
-    font-size: 30px;
-    letter-spacing: 1px;
-}
-
-header p {
-    margin: 5px 0;
-}
-
-section {
-    max-width: 950px;
-    margin: 60px auto;
-    padding: 0 20px;
+    font-size: 32px;
 }
 
 h2 {
     color: #0b3d6d;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 6px;
+    margin-top: 40px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
 ul {
     padding-left: 20px;
 }
 
-.contact-box {
-    background: #f4f6f9;
-    padding: 20px;
-    border-left: 4px solid #0b3d6d;
-    margin-top: 20px;
-}
-
 footer {
     text-align: center;
     padding: 25px;
-    background-color: #0b3d6d;
+    background: #0b3d6d;
     color: white;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 </style>
 </head>
@@ -67,119 +87,75 @@ footer {
 <body>
 
 <header>
-    <h1>Dr. Raghuveer Reddy Janamolla</h1>
-    <p>MBBS | MD Radiation Oncology (JIPMER)</p>
-    <p>Hyderabad, Telangana, India</p>
+    <div class="container profile-section">
+        <div class="profile-photo">
+            <img src="profile.jpg" alt="Dr Raghuveer Reddy Janamolla">
+        </div>
+        <div class="profile-text">
+            <h1>Dr. Raghuveer Reddy Janamolla</h1>
+            <p><strong>MBBS | MD Radiation Oncology (JIPMER)</strong></p>
+            <p>Radiation Oncologist | Academic & Clinical Oncology</p>
+            <p>Hyderabad, Telangana, India</p>
+        </div>
+    </div>
 </header>
 
-<section>
-    <h2>Professional Summary</h2>
-    <p>
-        Radiation Oncologist with 3 years of Junior Residency experience at 
-        the Regional Cancer Centre, JIPMER, Puducherry. 
-        Trained in modern radiotherapy techniques including IMRT, IGRT, VMAT, 
-        stereotactic radiotherapy, and brachytherapy.
-    </p>
-    <p>
-        Experienced in multidisciplinary oncology care, chemotherapy and immunotherapy
-        administration, treatment planning, toxicity assessment, radiation protection, 
-        and academic participation. Seeking a Senior Resident position in a reputed 
-        academic institution.
-    </p>
-</section>
+<div class="container">
 
-<section>
-    <h2>Education</h2>
+<h2>Professional Summary</h2>
+<div class="card">
+Radiation Oncologist with 3 years of Junior Residency experience at the Regional Cancer Centre, JIPMER. 
+Trained in IMRT, IGRT, VMAT, stereotactic radiotherapy and brachytherapy. 
+Experienced in multidisciplinary cancer care, chemotherapy, immunotherapy, toxicity management, 
+and academic oncology practice. Seeking Senior Resident opportunities in academic institutions.
+</div>
 
-    <p><strong>MD Radiation Oncology</strong><br>
-    Jawaharlal Institute of Postgraduate Medical Education & Research (JIPMER), Puducherry<br>
-    February 2023 – February 2026</p>
+<h2>Education</h2>
+<div class="card">
+<strong>MD Radiation Oncology</strong><br>
+JIPMER, Puducherry (2023 – 2026)<br><br>
 
-    <p><strong>MBBS</strong><br>
-    Gullas College of Medicine, University of Visayas, Philippines<br>
-    June 2014 – May 2020</p>
+<strong>MBBS</strong><br>
+Gullas College of Medicine, University of Visayas, Philippines (2014 – 2020)<br><br>
 
-    <p><strong>BSc Biology</strong><br>
-    University of Northern Philippines<br>
-    January 2013 – January 2014</p>
-</section>
+<strong>BSc Biology</strong><br>
+University of Northern Philippines (2013 – 2014)
+</div>
 
-<section>
-    <h2>Clinical Experience</h2>
-    <ul>
-        <li>3 Years Junior Residency – Regional Cancer Centre, JIPMER</li>
-        <li>External Beam Radiotherapy & Brachytherapy procedures</li>
-        <li>Target delineation & advanced treatment planning</li>
-        <li>On-treatment reviews & acute toxicity management</li>
-        <li>Daycare chemotherapy & immunotherapy exposure</li>
-        <li>Participation in multidisciplinary tumor board discussions</li>
-        <li>Palliative care & systemic therapy administration</li>
-    </ul>
-</section>
+<h2>Clinical Expertise</h2>
+<div class="card">
+<ul>
+<li>Advanced Radiotherapy Planning (IMRT, IGRT, VMAT)</li>
+<li>Brachytherapy Procedures</li>
+<li>On-Treatment Reviews & Toxicity Management</li>
+<li>Daycare Chemotherapy & Immunotherapy</li>
+<li>Multidisciplinary Tumor Board Participation</li>
+<li>Palliative Oncology Care</li>
+</ul>
+</div>
 
-<section>
-    <h2>Research & Publications</h2>
-    <ul>
-        <li>
-            MD Thesis: Radiation-induced Functional Lung Damage in Esophageal Cancer
-            (Manuscript under review)
-        </li>
-        <li>
-            Co-Author – Gulf Journal of Oncology:
-            Survival Outcomes and Predictive Factors in Neoadjuvant Chemoradiation
-            for Carcinoma Esophagus
-        </li>
-    </ul>
-</section>
+<h2>Research & Publications</h2>
+<div class="card">
+<ul>
+<li>MD Thesis – Radiation-Induced Functional Lung Damage in Esophageal Cancer (Under Review)</li>
+<li>Co-Author – Gulf Journal of Oncology (Neoadjuvant Chemoradiation in Esophageal Cancer)</li>
+</ul>
+</div>
 
-<section>
-    <h2>Academic Activities</h2>
-    <ul>
-        <li>Indian Cancer Congress 2023 – Mumbai</li>
-        <li>JIPMER Pediatric Neuro-Oncology Conference 2025 (Organising Committee)</li>
-        <li>AROI TN & PY CME – GI Malignancies</li>
-        <li>STANMED Critical Care in Oncology 2025</li>
-        <li>CORE-AROI CME – Plan Evaluation in GI & GU Cancers</li>
-        <li>STATA Statistical Workshop – JIPMER</li>
-    </ul>
-</section>
+<h2>Contact</h2>
+<div class="card">
+Phone: 8340881019<br>
+Email: raghuveerreddyjanamolla97@gmail.com<br>
+LinkedIn: 
+<a href="https://www.linkedin.com/in/dr-raghuveer-reddy-janamolla-aa7565321">
+linkedin.com/in/dr-raghuveer-reddy-janamolla-aa7565321
+</a>
+</div>
 
-<section>
-    <h2>Certifications</h2>
-    <ul>
-        <li>BLS & ACLS Certified</li>
-        <li>Good Clinical Practice – NIDA Clinical Trials Network (2023)</li>
-        <li>CCEPC – Indian Association of Palliative Care (2026)</li>
-        <li>AI in Health Care – NBEMS (2026)</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Technical & Clinical Skills</h2>
-    <ul>
-        <li>Radiotherapy Contouring & Planning (IMRT, IGRT, VMAT)</li>
-        <li>Brachytherapy Assistance</li>
-        <li>Toxicity Assessment & Follow-up</li>
-        <li>SPSS & Statistical Data Analysis</li>
-        <li>Clinical Documentation & Academic Presentation</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Contact Information</h2>
-    <div class="contact-box">
-        <p><strong>Phone:</strong> 8340881019</p>
-        <p><strong>Email:</strong> raghuveerreddyjanamolla97@gmail.com</p>
-        <p><strong>Location:</strong> Kompally, Hyderabad, Telangana – 500100</p>
-        <p><strong>LinkedIn:</strong> 
-        <a href="https://www.linkedin.com/in/dr-raghuveer-reddy-janamolla-aa7565321">
-        linkedin.com/in/dr-raghuveer-reddy-janamolla-aa7565321
-        </a></p>
-    </div>
-</section>
+</div>
 
 <footer>
-    © 2026 Dr. Raghuveer Reddy Janamolla | Academic Profile
+© 2026 Dr. Raghuveer Reddy Janamolla | Academic Profile
 </footer>
 
 </body>
